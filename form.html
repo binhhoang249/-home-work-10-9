@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bought</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <script src="form.js"></script>
+    <hr>
+    <h1>New Phuơng Đông</h1>
+    <hr />
+    <br>
+    <form name="frm">
+            <div>
+                <lable>
+                    Product name
+                    <input type= "text" name="pname" id="pname" placeholder="Enter product name">
+                </lable>
+            <div>
+            <br>
+                <label>
+                    Quantity
+                    <input type= "number" name="quantity" id="quantity" placeholder="Enter quantity">
+                </label>
+            </div>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Price
+                    <input type= "number" name="price" id="price" placeholder="Enter price">
+                </label>
+            </div>
+            <br>
+            <div id="div-button">
+                <button type="button" onclick="add()">Add</button>
+            </div>
+            <br>
+    </form>
+    <table id="tbl" border="1">
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </table>
+</body>
+</html>
