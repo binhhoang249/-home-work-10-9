@@ -18,10 +18,13 @@
                     Product name
                     <input type= "text" name="pname" id="pname" placeholder="Enter product name">
                 </lable>
+            <div>
+            <br>
                 <label>
                     Quantity
                     <input type= "number" name="quantity" id="quantity" placeholder="Enter quantity">
                 </label>
+            </div>
             </div>
             <br>
             <div>
@@ -29,25 +32,19 @@
                     Price
                     <input type= "number" name="price" id="price" placeholder="Enter price">
                 </label>
-                <label>
-                    Discount
-                    <input type= "number" name="dc" id="dc">
-                </label>
             </div>
             <br>
             <div id="div-button">
-                <button type="button" onclick="sell()">Sell</button>
-                <button type="button" onclick="reset()">Reset</button>
+                <button type="button" onclick="add()">Add</button>
             </div>
             <br>
     </form>
-    <table id="tbl">
+    <table id="tbl" border="1">
         <tr>
-            <th>ID</th>
-            <th>Product name</th>
+            <th>No</th>
+            <th>Name</th>
             <th>Quantity</th>
-            <th>Unit Price</th>
-            <th>Discount</th>
+            <th>Price</th>
             <th>Subtotal</th>
         </tr>
     </table>
