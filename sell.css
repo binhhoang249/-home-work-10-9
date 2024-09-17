@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: gray;    
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+}
+
+label input{
+    width: 60%;
+    position: absolute;
+    right : 0;
+}
+.frm{
+    width: 100%;
+}
+#box-mother{
+    width: 400px;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+}   
+
+button{
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 1s;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: rgb(104, 149, 149);
+}
+
+#thead{
+    background-color: black;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#total{
+    border-top: 1px solid white;
+}

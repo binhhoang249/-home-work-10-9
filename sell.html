@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="sell.css">
 </head>
 <body>
-    <script src="sell.js"></script>
     <div id="box-mother">
         <div>
             <h1>Clothes</h1>
             <br>
-            <form id="frm">
+            <form name="frm">
                 <label>
                     Product Name
                     <input type="text" id="pname" name="pname">
@@ -20,8 +19,10 @@
             </div>
             <br>
             <div>
-                    Product Quanlity
+                <label>
+                    Product Quantity
                     <input type="number" id="qty" name="qty">
+                </label>
             </div>
             <br>
             <div>
@@ -31,6 +32,7 @@
                 </label>
             </div>
             <br>
+            <button type="button" onclick="add()">Add</button>
             </form>
             <table id="tbl">
                 <thead id="thead">
@@ -53,5 +55,6 @@
                 </tbody>
             </table>
     </div>
+    <script src="sell.js"></script>
 </body>
 </html>
